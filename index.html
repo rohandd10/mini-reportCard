@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Report Card</title>
+        <script src="report.js"></script>
+        <link rel="stylesheet" href="report.css" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+        <h1>Result Generate</h1>
+        <form>
+            <input type="text" placeholder="enter your NAME" id="nm" required/>
+            <input type="text" placeholder="enter ROLL No" id="rono" required/>
+            <select id="std" required>
+                <option value="" disabled selected>Select Standard</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <input type="text" placeholder="enter Data Structure" id="sub1" required/>
+            <input type="text" placeholder="enter Front End" id="sub2" required/>
+            <input type="text" placeholder="enter Back End" id="sub3" required/>
+            <button id="shre" type="button" onclick="storeR()">Show Result</button>
+            <button id="res" type="reset">Reset</button>
+        </form>
+        </div>
+    </body>
+</html>
